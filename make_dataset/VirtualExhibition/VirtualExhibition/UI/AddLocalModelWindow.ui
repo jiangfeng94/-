@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>732</width>
+    <height>665</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>录入模型</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>590</y>
+     <width>201</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="confirmBtn">
+      <property name="text">
+       <string>录入</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="resetBtn">
+      <property name="text">
+       <string>重置</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>711</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0" colspan="2">
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>*编号类型：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox">
+        <item>
+         <property name="text">
+          <string>藏品总登记号</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>辅助账号</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>索书号</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>档案编号</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>固定资产登记号</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>出土(水)登记号</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>其他编号</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>*藏品编号：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit"/>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="nameLabel">
+      <property name="text">
+       <string>*文物名称：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="name"/>
+    </item>
+    <item row="2" column="0" colspan="2">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <property name="sizeConstraint">
+       <enum>QLayout::SetDefaultConstraint</enum>
+      </property>
+      <item>
+       <widget class="QLabel" name="discoverYearLabel">
+        <property name="text">
+         <string>*出土年代：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="discoverYear">
+        <item>
+         <property name="text">
+          <string>1990</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1991</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1992</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>未知</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="yearLabel">
+        <property name="text">
+         <string>*文物年代：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="year"/>
+      </item>
+     </layout>
+    </item>
+    <item row="4" column="0" colspan="2">
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>*文物类别：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="category">
+        <item>
+         <property name="text">
+          <string>玉石器、宝石</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>陶器</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>瓷器</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>铜器</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>金银器</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>铁器、其他金属器</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>漆器</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>雕塑、造像</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>石器、石刻、砖瓦</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>书法、绘画</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>文具</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>甲骨</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>玺印符牌</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>牙骨角器</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>竹木雕</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>家具</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>珐琅器</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>织绣</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>古籍图书</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>碑帖拓本</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>武器</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>邮品</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>文件、宣传品</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>档案文书</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>乐器、法器</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>钱币</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>名人遗物</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>玻璃器</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>皮革</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>音像制品</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>票据</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>交通、运输工具</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>度量衡器</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>标本、化石</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>其他</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_10">
+        <property name="lineWidth">
+         <number>1</number>
+        </property>
+        <property name="text">
+         <string>*文物级别：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="level">
+        <item>
+         <property name="text">
+          <string>一级</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>二级</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>三级</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>一般</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>未定级</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="5" column="0" colspan="2">
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLabel" name="sizeLabel">
+        <property name="text">
+         <string>文物尺寸：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lengthLabel">
+        <property name="text">
+         <string>长：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="length"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="widthLabel">
+        <property name="text">
+         <string>宽：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="width"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="heightLabel">
+        <property name="text">
+         <string>高：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="height"/>
+      </item>
+     </layout>
+    </item>
+    <item row="6" column="0" colspan="2">
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <property name="sizeConstraint">
+       <enum>QLayout::SetDefaultConstraint</enum>
+      </property>
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>质量范围：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_2">
+        <item>
+         <property name="text">
+          <string>&lt;0.01 kg</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>0.01-1 kg</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1-50 kg</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>50-100kg</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>100-1000 kg</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>&gt;1000 kg</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>具体质量：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_2"/>
+      </item>
+     </layout>
+    </item>
+    <item row="7" column="0" colspan="2">
+     <layout class="QHBoxLayout" name="horizontalLayout_8">
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>实际数量：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_3"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>保存状态：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_3">
+        <item>
+         <property name="text">
+          <string>状态稳定，不需修复</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>部分损腐，需要修复</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>腐蚀损毁严重，急需修复</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>已修复</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="8" column="0" colspan="2">
+     <layout class="QHBoxLayout" name="horizontalLayout_9">
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>文物来源：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_4">
+        <item>
+         <property name="text">
+          <string>征集购买</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>接受捐赠</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>依法交换</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>拨交</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>移交</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>旧藏</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>发掘</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>采集</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>拣选</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>其他</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_13">
+        <property name="text">
+         <string>具体来源：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_4"/>
+      </item>
+     </layout>
+    </item>
+    <item row="9" column="0" colspan="2">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="label_14">
+        <property name="text">
+         <string>完残程度：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_5">
+        <item>
+         <property name="text">
+          <string>完整</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>基本完整</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>残缺</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>严重残缺(含缺失部件)</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_15">
+        <property name="text">
+         <string>完残状况：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_5"/>
+      </item>
+     </layout>
+    </item>
+    <item row="10" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>出土地：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1">
+     <widget class="QLineEdit" name="place"/>
+    </item>
+    <item row="13" column="0" colspan="2">
+     <layout class="QHBoxLayout" name="horizontalLayout_10">
+      <item>
+       <widget class="QLabel" name="label_12">
+        <property name="text">
+         <string>模型位置：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="modelPath">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="choosePathBtn">
+        <property name="text">
+         <string>选择</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="15" column="0">
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>文物详情：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="15" column="1">
+     <widget class="QTextEdit" name="description"/>
+    </item>
+   </layout>
+  </widget>
+  <zorder>horizontalLayoutWidget</zorder>
+  <zorder>formLayoutWidget</zorder>
+  <zorder>comboBox_6</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

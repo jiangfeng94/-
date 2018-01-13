@@ -1,0 +1,468 @@
+﻿  CCgMaterialRenderer.cpp
+CCgMaterialRenderer.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CD3D9CgMaterialRenderer.cpp
+CD3D9CgMaterialRenderer.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CDefaultSceneNodeAnimatorFactory.cpp
+d:\project\virtualexhibition\irrlicht\CDefaultSceneNodeAnimatorFactory.h(8): fatal error C1083: 无法打开包括文件: “ISceneNodeAnimatorFactory.h”: No such file or directory
+  CDefaultSceneNodeFactory.cpp
+d:\project\virtualexhibition\irrlicht\CDefaultSceneNodeFactory.h(8): fatal error C1083: 无法打开包括文件: “ISceneNodeFactory.h”: No such file or directory
+  CGeometryCreator.cpp
+d:\project\virtualexhibition\irrlicht\CGeometryCreator.h(8): fatal error C1083: 无法打开包括文件: “IGeometryCreator.h”: No such file or directory
+  CMeshCache.cpp
+d:\project\virtualexhibition\irrlicht\CMeshCache.h(8): fatal error C1083: 无法打开包括文件: “IMeshCache.h”: No such file or directory
+  CMeshManipulator.cpp
+d:\project\virtualexhibition\irrlicht\CMeshManipulator.h(8): fatal error C1083: 无法打开包括文件: “IMeshManipulator.h”: No such file or directory
+  COpenGLCgMaterialRenderer.cpp
+COpenGLCgMaterialRenderer.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CSceneManager.cpp
+CSceneManager.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  C3DSMeshFileLoader.cpp
+C3DSMeshFileLoader.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CSMFMeshFileLoader.cpp
+CSMFMeshFileLoader.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CAnimatedMeshHalfLife.cpp
+CAnimatedMeshHalfLife.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CAnimatedMeshMD2.cpp
+CAnimatedMeshMD2.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CAnimatedMeshMD3.cpp
+CAnimatedMeshMD3.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CB3DMeshFileLoader.cpp
+CB3DMeshFileLoader.cpp(9): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CBSPMeshFileLoader.cpp
+CBSPMeshFileLoader.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CColladaFileLoader.cpp
+CColladaFileLoader.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CCSMLoader.cpp
+CCSMLoader.cpp(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CDMFLoader.cpp
+CDMFLoader.cpp(16): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CIrrMeshFileLoader.cpp
+CIrrMeshFileLoader.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  正在编译...
+  CLMTSMeshFileLoader.cpp
+CLMTSMeshFileLoader.cpp(68): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CLWOMeshFileLoader.cpp
+d:\project\virtualexhibition\irrlicht\CLWOMeshFileLoader.h(8): fatal error C1083: 无法打开包括文件: “IMeshLoader.h”: No such file or directory
+  CMD2MeshFileLoader.cpp
+CMD2MeshFileLoader.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CMD3MeshFileLoader.cpp
+CMD3MeshFileLoader.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CMS3DMeshFileLoader.cpp
+CMS3DMeshFileLoader.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CMY3DMeshFileLoader.cpp
+CMY3DMeshFileLoader.cpp(11): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  COBJMeshFileLoader.cpp
+COBJMeshFileLoader.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  COCTLoader.cpp
+COCTLoader.cpp(12): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  COgreMeshFileLoader.cpp
+COgreMeshFileLoader.cpp(6): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CPLYMeshFileLoader.cpp
+CPLYMeshFileLoader.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CQ3LevelMesh.cpp
+CQ3LevelMesh.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CSkinnedMesh.cpp
+CSkinnedMesh.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CSTLMeshFileLoader.cpp
+CSTLMeshFileLoader.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CXMeshFileLoader.cpp
+CXMeshFileLoader.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CAnimatedMeshSceneNode.cpp
+d:\project\virtualexhibition\irrlicht\CAnimatedMeshSceneNode.h(8): fatal error C1083: 无法打开包括文件: “IAnimatedMeshSceneNode.h”: No such file or directory
+  CBillboardSceneNode.cpp
+d:\project\virtualexhibition\irrlicht\CBillboardSceneNode.h(8): fatal error C1083: 无法打开包括文件: “IBillboardSceneNode.h”: No such file or directory
+  CBoneSceneNode.cpp
+CBoneSceneNode.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CCameraSceneNode.cpp
+d:\project\virtualexhibition\irrlicht\CCameraSceneNode.h(8): fatal error C1083: 无法打开包括文件: “ICameraSceneNode.h”: No such file or directory
+  CCubeSceneNode.cpp
+d:\project\virtualexhibition\irrlicht\CCubeSceneNode.h(8): fatal error C1083: 无法打开包括文件: “IMeshSceneNode.h”: No such file or directory
+  CDummyTransformationSceneNode.cpp
+d:\project\virtualexhibition\irrlicht\CDummyTransformationSceneNode.h(8): fatal error C1083: 无法打开包括文件: “IDummyTransformationSceneNode.h”: No such file or directory
+  正在编译...
+  CEmptySceneNode.cpp
+d:\project\virtualexhibition\irrlicht\CEmptySceneNode.h(8): fatal error C1083: 无法打开包括文件: “ISceneNode.h”: No such file or directory
+  CLightSceneNode.cpp
+d:\project\virtualexhibition\irrlicht\CLightSceneNode.h(8): fatal error C1083: 无法打开包括文件: “ILightSceneNode.h”: No such file or directory
+  CMeshSceneNode.cpp
+d:\project\virtualexhibition\irrlicht\CMeshSceneNode.h(8): fatal error C1083: 无法打开包括文件: “IMeshSceneNode.h”: No such file or directory
+  COctreeSceneNode.cpp
+d:\project\virtualexhibition\irrlicht\COctreeSceneNode.h(8): fatal error C1083: 无法打开包括文件: “IMeshSceneNode.h”: No such file or directory
+  CQuake3ShaderSceneNode.cpp
+CQuake3ShaderSceneNode.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CShadowVolumeSceneNode.cpp
+d:\project\virtualexhibition\irrlicht\CShadowVolumeSceneNode.h(8): fatal error C1083: 无法打开包括文件: “IShadowVolumeSceneNode.h”: No such file or directory
+  CSkyBoxSceneNode.cpp
+d:\project\virtualexhibition\irrlicht\CSkyBoxSceneNode.h(8): fatal error C1083: 无法打开包括文件: “ISceneNode.h”: No such file or directory
+  CSkyDomeSceneNode.cpp
+d:\project\virtualexhibition\irrlicht\CSkyDomeSceneNode.h(9): fatal error C1083: 无法打开包括文件: “ISceneNode.h”: No such file or directory
+  CSphereSceneNode.cpp
+d:\project\virtualexhibition\irrlicht\CSphereSceneNode.h(8): fatal error C1083: 无法打开包括文件: “IMeshSceneNode.h”: No such file or directory
+  CTerrainSceneNode.cpp
+d:\project\virtualexhibition\irrlicht\CTerrainSceneNode.h(12): fatal error C1083: 无法打开包括文件: “ITerrainSceneNode.h”: No such file or directory
+  CTextSceneNode.cpp
+d:\project\virtualexhibition\irrlicht\CTextSceneNode.h(8): fatal error C1083: 无法打开包括文件: “ITextSceneNode.h”: No such file or directory
+  CVolumeLightSceneNode.cpp
+d:\project\virtualexhibition\irrlicht\CVolumeLightSceneNode.h(10): fatal error C1083: 无法打开包括文件: “IVolumeLightSceneNode.h”: No such file or directory
+  CWaterSurfaceSceneNode.cpp
+d:\project\virtualexhibition\irrlicht\CMeshSceneNode.h(8): fatal error C1083: 无法打开包括文件: “IMeshSceneNode.h”: No such file or directory
+  CParticleAnimatedMeshSceneNodeEmitter.cpp
+d:\project\virtualexhibition\irrlicht\CParticleAnimatedMeshSceneNodeEmitter.h(8): fatal error C1083: 无法打开包括文件: “IParticleAnimatedMeshSceneNodeEmitter.h”: No such file or directory
+  CParticleAttractionAffector.cpp
+d:\project\virtualexhibition\irrlicht\CParticleAttractionAffector.h(8): fatal error C1083: 无法打开包括文件: “IParticleAttractionAffector.h”: No such file or directory
+  CParticleBoxEmitter.cpp
+d:\project\virtualexhibition\irrlicht\CParticleBoxEmitter.h(8): fatal error C1083: 无法打开包括文件: “IParticleBoxEmitter.h”: No such file or directory
+  CParticleCylinderEmitter.cpp
+d:\project\virtualexhibition\irrlicht\CParticleCylinderEmitter.h(8): fatal error C1083: 无法打开包括文件: “IParticleCylinderEmitter.h”: No such file or directory
+  CParticleFadeOutAffector.cpp
+d:\project\virtualexhibition\irrlicht\CParticleFadeOutAffector.h(8): fatal error C1083: 无法打开包括文件: “IParticleFadeOutAffector.h”: No such file or directory
+  CParticleGravityAffector.cpp
+d:\project\virtualexhibition\irrlicht\CParticleGravityAffector.h(8): fatal error C1083: 无法打开包括文件: “IParticleGravityAffector.h”: No such file or directory
+  CParticleMeshEmitter.cpp
+CParticleMeshEmitter.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  正在编译...
+  CParticlePointEmitter.cpp
+d:\project\virtualexhibition\irrlicht\CParticlePointEmitter.h(8): fatal error C1083: 无法打开包括文件: “IParticleEmitter.h”: No such file or directory
+  CParticleRingEmitter.cpp
+d:\project\virtualexhibition\irrlicht\CParticleRingEmitter.h(8): fatal error C1083: 无法打开包括文件: “IParticleRingEmitter.h”: No such file or directory
+  CParticleRotationAffector.cpp
+d:\project\virtualexhibition\irrlicht\CParticleRotationAffector.h(8): fatal error C1083: 无法打开包括文件: “IParticleRotationAffector.h”: No such file or directory
+  CParticleScaleAffector.cpp
+d:\project\virtualexhibition\irrlicht\CParticleScaleAffector.h(8): fatal error C1083: 无法打开包括文件: “IParticleAffector.h”: No such file or directory
+  CParticleSphereEmitter.cpp
+CParticleSphereEmitter.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CParticleSystemSceneNode.cpp
+d:\project\virtualexhibition\irrlicht\CParticleSystemSceneNode.h(8): fatal error C1083: 无法打开包括文件: “IParticleSystemSceneNode.h”: No such file or directory
+  CMetaTriangleSelector.cpp
+d:\project\virtualexhibition\irrlicht\CMetaTriangleSelector.h(8): fatal error C1083: 无法打开包括文件: “IMetaTriangleSelector.h”: No such file or directory
+  COctreeTriangleSelector.cpp
+d:\project\virtualexhibition\irrlicht\CTriangleSelector.h(8): fatal error C1083: 无法打开包括文件: “ITriangleSelector.h”: No such file or directory
+  CSceneCollisionManager.cpp
+d:\project\virtualexhibition\irrlicht\CSceneCollisionManager.h(8): fatal error C1083: 无法打开包括文件: “ISceneCollisionManager.h”: No such file or directory
+  CTerrainTriangleSelector.cpp
+d:\project\virtualexhibition\irrlicht\CTerrainTriangleSelector.h(12): fatal error C1083: 无法打开包括文件: “ITriangleSelector.h”: No such file or directory
+  CTriangleBBSelector.cpp
+d:\project\virtualexhibition\irrlicht\CTriangleSelector.h(8): fatal error C1083: 无法打开包括文件: “ITriangleSelector.h”: No such file or directory
+  CTriangleSelector.cpp
+d:\project\virtualexhibition\irrlicht\CTriangleSelector.h(8): fatal error C1083: 无法打开包括文件: “ITriangleSelector.h”: No such file or directory
+  CSceneLoaderIrr.cpp
+d:\project\virtualexhibition\irrlicht\CSceneLoaderIrr.h(8): fatal error C1083: 无法打开包括文件: “ISceneLoader.h”: No such file or directory
+  CSceneNodeAnimatorCameraFPS.cpp
+d:\project\virtualexhibition\irrlicht\CSceneNodeAnimatorCameraFPS.h(8): fatal error C1083: 无法打开包括文件: “ISceneNodeAnimatorCameraFPS.h”: No such file or directory
+  CSceneNodeAnimatorCameraMaya.cpp
+d:\project\virtualexhibition\irrlicht\CSceneNodeAnimatorCameraMaya.h(8): fatal error C1083: 无法打开包括文件: “ISceneNodeAnimatorCameraMaya.h”: No such file or directory
+  CSceneNodeAnimatorCollisionResponse.cpp
+d:\project\virtualexhibition\irrlicht\CSceneNodeAnimatorCollisionResponse.h(8): fatal error C1083: 无法打开包括文件: “ISceneNodeAnimatorCollisionResponse.h”: No such file or directory
+  CSceneNodeAnimatorDelete.cpp
+d:\project\virtualexhibition\irrlicht\ISceneNodeAnimatorFinishing.h(8): fatal error C1083: 无法打开包括文件: “ISceneNode.h”: No such file or directory
+  CSceneNodeAnimatorFlyCircle.cpp
+d:\project\virtualexhibition\irrlicht\CSceneNodeAnimatorFlyCircle.h(8): fatal error C1083: 无法打开包括文件: “ISceneNode.h”: No such file or directory
+  CSceneNodeAnimatorFlyStraight.cpp
+d:\project\virtualexhibition\irrlicht\ISceneNodeAnimatorFinishing.h(8): fatal error C1083: 无法打开包括文件: “ISceneNode.h”: No such file or directory
+  CSceneNodeAnimatorFollowSpline.cpp
+d:\project\virtualexhibition\irrlicht\CSceneNodeAnimatorFollowSpline.h(8): fatal error C1083: 无法打开包括文件: “ISceneNode.h”: No such file or directory
+  正在编译...
+  CSceneNodeAnimatorRotation.cpp
+d:\project\virtualexhibition\irrlicht\CSceneNodeAnimatorRotation.h(8): fatal error C1083: 无法打开包括文件: “ISceneNode.h”: No such file or directory
+  CSceneNodeAnimatorTexture.cpp
+d:\project\virtualexhibition\irrlicht\CSceneNodeAnimatorTexture.h(8): fatal error C1083: 无法打开包括文件: “irrArray.h”: No such file or directory
+  CColladaMeshWriter.cpp
+CColladaMeshWriter.cpp(7): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CIrrMeshWriter.cpp
+CIrrMeshWriter.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  COBJMeshWriter.cpp
+COBJMeshWriter.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CPLYMeshWriter.cpp
+CPLYMeshWriter.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CSTLMeshWriter.cpp
+CSTLMeshWriter.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CVideoModeList.cpp
+d:\project\virtualexhibition\irrlicht\CVideoModeList.h(8): fatal error C1083: 无法打开包括文件: “IVideoModeList.h”: No such file or directory
+  CSoftwareDriver.cpp
+CSoftwareDriver.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CSoftwareTexture.cpp
+CSoftwareTexture.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRFlat.cpp
+CTRFlat.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRFlatWire.cpp
+CTRFlatWire.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRGouraud.cpp
+CTRGouraud.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRGouraudWire.cpp
+CTRGouraudWire.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRTextureFlat.cpp
+CTRTextureFlat.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRTextureFlatWire.cpp
+CTRTextureFlatWire.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRTextureGouraud.cpp
+d:\project\virtualexhibition\irrlicht\CTRTextureGouraud.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRTextureGouraudAdd.cpp
+CTRTextureGouraudAdd.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRTextureGouraudNoZ.cpp
+CTRTextureGouraudNoZ.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRTextureGouraudWire.cpp
+CTRTextureGouraudWire.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  正在编译...
+  CZBuffer.cpp
+CZBuffer.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  COpenGLDriver.cpp
+d:\project\virtualexhibition\irrlicht\COpenGLDriver.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  COpenGLExtensionHandler.cpp
+COpenGLExtensionHandler.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  COpenGLNormalMapRenderer.cpp
+COpenGLNormalMapRenderer.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  COpenGLParallaxMapRenderer.cpp
+COpenGLParallaxMapRenderer.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  COpenGLShaderMaterialRenderer.cpp
+COpenGLShaderMaterialRenderer.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  COpenGLSLMaterialRenderer.cpp
+COpenGLSLMaterialRenderer.cpp(13): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  COpenGLTexture.cpp
+COpenGLTexture.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CD3D8Driver.cpp
+CD3D8Driver.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CD3D8NormalMapRenderer.cpp
+CD3D8NormalMapRenderer.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+CD3D8NormalMapRenderer.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CD3D8ParallaxMapRenderer.cpp
+CD3D8ParallaxMapRenderer.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+CD3D8ParallaxMapRenderer.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CD3D8ShaderMaterialRenderer.cpp
+d:\project\virtualexhibition\irrlicht\CD3D8ShaderMaterialRenderer.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CD3D8Texture.cpp
+CD3D8Texture.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CColorConverter.cpp
+d:\project\virtualexhibition\irrlicht\CColorConverter.h(8): fatal error C1083: 无法打开包括文件: “irrTypes.h”: No such file or directory
+  CFPSCounter.cpp
+d:\project\virtualexhibition\irrlicht\CFPSCounter.h(8): fatal error C1083: 无法打开包括文件: “irrTypes.h”: No such file or directory
+  CImage.cpp
+d:\project\virtualexhibition\irrlicht\CImage.h(8): fatal error C1083: 无法打开包括文件: “IImage.h”: No such file or directory
+  CNullDriver.cpp
+d:\project\virtualexhibition\irrlicht\CNullDriver.h(8): fatal error C1083: 无法打开包括文件: “IVideoDriver.h”: No such file or directory
+  CImageWriterBMP.cpp
+d:\project\virtualexhibition\irrlicht\CImageWriterBMP.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CImageWriterJPG.cpp
+d:\project\virtualexhibition\irrlicht\CImageWriterJPG.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CImageWriterPCX.cpp
+d:\project\virtualexhibition\irrlicht\CImageWriterPCX.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  正在编译...
+  CImageWriterPNG.cpp
+d:\project\virtualexhibition\irrlicht\CImageWriterPNG.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CImageWriterPPM.cpp
+d:\project\virtualexhibition\irrlicht\CImageWriterPPM.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CImageWriterPSD.cpp
+d:\project\virtualexhibition\irrlicht\CImageWriterPSD.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CImageWriterTGA.cpp
+d:\project\virtualexhibition\irrlicht\CImageWriterTGA.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CImageLoaderBMP.cpp
+d:\project\virtualexhibition\irrlicht\CImageLoaderBMP.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CImageLoaderDDS.cpp
+d:\project\virtualexhibition\irrlicht\CImageLoaderDDS.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CImageLoaderJPG.cpp
+d:\project\virtualexhibition\irrlicht\CImageLoaderJPG.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CImageLoaderPCX.cpp
+d:\project\virtualexhibition\irrlicht\CImageLoaderPCX.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CImageLoaderPNG.cpp
+d:\project\virtualexhibition\irrlicht\CImageLoaderPNG.h(12): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CImageLoaderPPM.cpp
+d:\project\virtualexhibition\irrlicht\CImageLoaderPPM.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CImageLoaderPSD.cpp
+d:\project\virtualexhibition\irrlicht\CImageLoaderPSD.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CImageLoaderRGB.cpp
+CImageLoaderRGB.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\project\virtualexhibition\irrlicht\CImageLoaderRGB.h(23): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CImageLoaderTGA.cpp
+d:\project\virtualexhibition\irrlicht\CImageLoaderTGA.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CImageLoaderWAL.cpp
+d:\project\virtualexhibition\irrlicht\CImageLoaderWAL.h(14): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CD3D9Driver.cpp
+d:\project\virtualexhibition\irrlicht\CD3D9Driver.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CD3D9HLSLMaterialRenderer.cpp
+CD3D9HLSLMaterialRenderer.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CD3D9NormalMapRenderer.cpp
+CD3D9NormalMapRenderer.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+CD3D9NormalMapRenderer.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CD3D9ParallaxMapRenderer.cpp
+CD3D9ParallaxMapRenderer.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+CD3D9ParallaxMapRenderer.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CD3D9ShaderMaterialRenderer.cpp
+CD3D9ShaderMaterialRenderer.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CD3D9Texture.cpp
+CD3D9Texture.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  正在编译...
+  CBurningShader_Raster_Reference.cpp
+CBurningShader_Raster_Reference.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CDepthBuffer.cpp
+CDepthBuffer.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CSoftwareDriver2.cpp
+CSoftwareDriver2.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CSoftwareTexture2.cpp
+CSoftwareTexture2.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRGouraud2.cpp
+CTRGouraud2.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRGouraudAlpha2.cpp
+CTRGouraudAlpha2.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRGouraudAlphaNoZ2.cpp
+CTRGouraudAlphaNoZ2.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRNormalMap.cpp
+CTRNormalMap.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRStencilShadow.cpp
+CTRStencilShadow.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRTextureBlend.cpp
+CTRTextureBlend.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRTextureDetailMap2.cpp
+CTRTextureDetailMap2.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRTextureGouraud2.cpp
+CTRTextureGouraud2.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRTextureGouraudAdd2.cpp
+CTRTextureGouraudAdd2.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRTextureGouraudAddNoZ2.cpp
+CTRTextureGouraudAddNoZ2.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRTextureGouraudAlpha.cpp
+CTRTextureGouraudAlpha.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRTextureGouraudAlphaNoZ.cpp
+CTRTextureGouraudAlphaNoZ.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRTextureGouraudNoZ2.cpp
+CTRTextureGouraudNoZ2.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRTextureGouraudVertexAlpha2.cpp
+CTRTextureGouraudVertexAlpha2.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRTextureLightMap2_Add.cpp
+CTRTextureLightMap2_Add.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRTextureLightMap2_M1.cpp
+CTRTextureLightMap2_M1.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  正在编译...
+  CTRTextureLightMap2_M2.cpp
+CTRTextureLightMap2_M2.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRTextureLightMap2_M4.cpp
+CTRTextureLightMap2_M4.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRTextureLightMapGouraud2_M4.cpp
+CTRTextureLightMapGouraud2_M4.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CTRTextureWire2.cpp
+CTRTextureWire2.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  IBurningShader.cpp
+IBurningShader.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CLogger.cpp
+d:\project\virtualexhibition\irrlicht\CLogger.h(8): fatal error C1083: 无法打开包括文件: “ILogger.h”: No such file or directory
+  COSOperator.cpp
+d:\project\virtualexhibition\irrlicht\COSOperator.h(8): fatal error C1083: 无法打开包括文件: “IOSOperator.h”: No such file or directory
+  Irrlicht.cpp
+Irrlicht.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  os.cpp
+d:\project\virtualexhibition\irrlicht\os.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  aescrypt.cpp
+d:\project\virtualexhibition\irrlicht\aesgladman\aes.h(40): fatal error C1083: 无法打开包括文件: “irrMath.h”: No such file or directory
+  aeskey.cpp
+d:\project\virtualexhibition\irrlicht\aesgladman\aes.h(40): fatal error C1083: 无法打开包括文件: “irrMath.h”: No such file or directory
+  aestab.cpp
+d:\project\virtualexhibition\irrlicht\aesgladman\aes.h(40): fatal error C1083: 无法打开包括文件: “irrMath.h”: No such file or directory
+  fileenc.cpp
+d:\project\virtualexhibition\irrlicht\aesgladman\aes.h(40): fatal error C1083: 无法打开包括文件: “irrMath.h”: No such file or directory
+  sha1.cpp
+d:\project\virtualexhibition\irrlicht\aesgladman\../os.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  sha2.cpp
+d:\project\virtualexhibition\irrlicht\aesgladman\sha2.h(37): fatal error C1083: 无法打开包括文件: “irrMath.h”: No such file or directory
+  CIrrDeviceConsole.cpp
+d:\project\virtualexhibition\irrlicht\CIrrDeviceConsole.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CIrrDeviceFB.cpp
+d:\project\virtualexhibition\irrlicht\CIrrDeviceFB.h(9): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CIrrDeviceLinux.cpp
+d:\project\virtualexhibition\irrlicht\CIrrDeviceLinux.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CIrrDeviceSDL.cpp
+CIrrDeviceSDL.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CIrrDeviceStub.cpp
+d:\project\virtualexhibition\irrlicht\CIrrDeviceStub.h(8): fatal error C1083: 无法打开包括文件: “IrrlichtDevice.h”: No such file or directory
+  正在编译...
+  CIrrDeviceWin32.cpp
+CIrrDeviceWin32.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CIrrDeviceWinCE.cpp
+CIrrDeviceWinCE.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CAttributes.cpp
+d:\project\virtualexhibition\irrlicht\CAttributes.h(8): fatal error C1083: 无法打开包括文件: “IAttributes.h”: No such file or directory
+  CFileList.cpp
+d:\project\virtualexhibition\irrlicht\CFileList.h(8): fatal error C1083: 无法打开包括文件: “IFileList.h”: No such file or directory
+  CFileSystem.cpp
+CFileSystem.cpp(5): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CLimitReadFile.cpp
+d:\project\virtualexhibition\irrlicht\CLimitReadFile.h(8): fatal error C1083: 无法打开包括文件: “IReadFile.h”: No such file or directory
+  CMemoryFile.cpp
+d:\project\virtualexhibition\irrlicht\CMemoryFile.h(8): fatal error C1083: 无法打开包括文件: “IReadFile.h”: No such file or directory
+  CMountPointReader.cpp
+d:\project\virtualexhibition\irrlicht\CMountPointReader.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CNPKReader.cpp
+d:\project\virtualexhibition\irrlicht\CNPKReader.h(9): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CPakReader.cpp
+d:\project\virtualexhibition\irrlicht\CPakReader.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CReadFile.cpp
+d:\project\virtualexhibition\irrlicht\CReadFile.h(9): fatal error C1083: 无法打开包括文件: “IReadFile.h”: No such file or directory
+  CTarReader.cpp
+d:\project\virtualexhibition\irrlicht\CTarReader.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CWADReader.cpp
+CWADReader.cpp(6): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CWriteFile.cpp
+d:\project\virtualexhibition\irrlicht\CWriteFile.h(9): fatal error C1083: 无法打开包括文件: “IWriteFile.h”: No such file or directory
+  CXMLReader.cpp
+d:\project\virtualexhibition\irrlicht\CXMLReaderImpl.h(8): fatal error C1083: 无法打开包括文件: “irrXML.h”: No such file or directory
+  CXMLWriter.cpp
+d:\project\virtualexhibition\irrlicht\CXMLWriter.h(9): fatal error C1083: 无法打开包括文件: “IXMLWriter.h”: No such file or directory
+  CZipReader.cpp
+d:\project\virtualexhibition\irrlicht\CZipReader.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  irrXML.cpp
+irrXML.cpp(5): fatal error C1083: 无法打开包括文件: “irrXML.h”: No such file or directory
+  CDefaultGUIElementFactory.cpp
+d:\project\virtualexhibition\irrlicht\CDefaultGUIElementFactory.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CGUIButton.cpp
+d:\project\virtualexhibition\irrlicht\CGUIButton.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  正在编译...
+  CGUICheckbox.cpp
+d:\project\virtualexhibition\irrlicht\CGUICheckBox.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CGUIColorSelectDialog.cpp
+d:\project\virtualexhibition\irrlicht\CGUIColorSelectDialog.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CGUIComboBox.cpp
+d:\project\virtualexhibition\irrlicht\CGUIComboBox.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CGUIContextMenu.cpp
+d:\project\virtualexhibition\irrlicht\CGUIContextMenu.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CGUIEditBox.cpp
+d:\project\virtualexhibition\irrlicht\CGUIEditBox.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CGUIEnvironment.cpp
+d:\project\virtualexhibition\irrlicht\CGUIEnvironment.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CGUIFileOpenDialog.cpp
+d:\project\virtualexhibition\irrlicht\CGUIFileOpenDialog.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CGUIFont.cpp
+d:\project\virtualexhibition\irrlicht\CGUIFont.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CGUIImage.cpp
+d:\project\virtualexhibition\irrlicht\CGUIImage.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CGUIImageList.cpp
+d:\project\virtualexhibition\irrlicht\CGUIImageList.h(7): fatal error C1083: 无法打开包括文件: “IGUIImageList.h”: No such file or directory
+  CGUIInOutFader.cpp
+d:\project\virtualexhibition\irrlicht\CGUIInOutFader.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CGUIListBox.cpp
+d:\project\virtualexhibition\irrlicht\CGUIListBox.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CGUIMenu.cpp
+d:\project\virtualexhibition\irrlicht\CGUIMenu.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CGUIMeshViewer.cpp
+d:\project\virtualexhibition\irrlicht\CGUIMeshViewer.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CGUIMessageBox.cpp
+d:\project\virtualexhibition\irrlicht\CGUIMessageBox.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CGUIModalScreen.cpp
+d:\project\virtualexhibition\irrlicht\CGUIModalScreen.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CGUIScrollBar.cpp
+d:\project\virtualexhibition\irrlicht\CGUIScrollBar.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CGUISkin.cpp
+d:\project\virtualexhibition\irrlicht\CGUISkin.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CGUISpinBox.cpp
+d:\project\virtualexhibition\irrlicht\CGUISpinBox.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CGUISpriteBank.cpp
+d:\project\virtualexhibition\irrlicht\CGUISpriteBank.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  正在编译...
+  CGUIStaticText.cpp
+d:\project\virtualexhibition\irrlicht\CGUIStaticText.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CGUITabControl.cpp
+d:\project\virtualexhibition\irrlicht\CGUITabControl.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CGUITable.cpp
+d:\project\virtualexhibition\irrlicht\CGUITable.h(11): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CGUIToolBar.cpp
+d:\project\virtualexhibition\irrlicht\CGUIToolBar.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
+  CGUITreeView.cpp
+d:\project\virtualexhibition\irrlicht\CGUITreeView.h(7): fatal error C1083: 无法打开包括文件: “IGUITreeView.h”: No such file or directory
+  CGUIWindow.cpp
+d:\project\virtualexhibition\irrlicht\CGUIWindow.h(8): fatal error C1083: 无法打开包括文件: “IrrCompileConfig.h”: No such file or directory
