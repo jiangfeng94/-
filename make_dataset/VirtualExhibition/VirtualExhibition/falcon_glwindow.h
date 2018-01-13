@@ -21,6 +21,7 @@ public:
 	void updateContent(const QString &filename, int num);
 	void changeview();
 	void getpic(QString picname);
+	void todoo();
 protected:
 	/*! Initialize OpenGL*/
 	void initializeGL();

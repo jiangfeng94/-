@@ -46,7 +46,11 @@ MainWindow::MainWindow() : QMainWindow()
 	}
 	
 	scene::ISceneNode* light =Smgr->addLightSceneNode(0, core::vector3df(0.0, 100.0, 0.0),video::SColorf(0.1f, 0.1f, 0.1f, 0.0f), 8000.0f);
-	glWindow->updateContent("../../3d_model/teapot001.3ds",0);
+	int i = 1;
+	QString file = "../../3d_model/teapot" + QString::number(i, 10) + ".3ds";
+	glWindow->updateContent(file, i);
+	//glWindow->todoo();
+
 }
 
 IrrlichtDevice*  MainWindow::getDevice()

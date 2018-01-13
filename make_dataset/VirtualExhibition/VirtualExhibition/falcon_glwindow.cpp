@@ -2,6 +2,8 @@
 #include "falcon_mainwindow.h"
 #include <irrlicht.h>
 
+
+QString b;
 GLWindow::GLWindow(QWidget *parent)
 	: QOpenGLWidget(parent)
 {
@@ -61,55 +63,43 @@ void GLWindow::paintGL()
 }
 
 void GLWindow::updateContent(const QString &filename, int num) {
-	bool isempty = mainWindow->smgrIsEmpty();
-	if (!isempty) {
-		isempty = true;
+	b = QString::number(num, 10);
+	scene::IAnimatedMesh* earthMesh = mainWindow->getSmgr()->getMesh(filename.toLocal8Bit().data());
+	irr::core::vector3df center(0.0, 0.0, 0.0);
+	if (earthMesh)
+	{
+		scene::ISceneNode* rootEmptyNode = mainWindow->getEmptySceneNode();
+		if (rootEmptyNode) {
+			scene::IMeshSceneNode* sphere = mainWindow->getSmgr()->addMeshSceneNode(earthMesh->getMesh(0), rootEmptyNode, 1);
+			sphere->setName(filename.toLocal8Bit().data());
+			selectnode = sphere;
+		}
 	}
-	if (isempty) {
-		scene::IAnimatedMesh* earthMesh = mainWindow->getSmgr()->getMesh(filename.toLocal8Bit().data());
-		irr::core::vector3df center(0.0, 0.0, 0.0);
-		if (earthMesh)
-		{
-			scene::ISceneNode* rootEmptyNode = mainWindow->getEmptySceneNode();
-			if (rootEmptyNode) {
-				scene::IMeshSceneNode* sphere = mainWindow->getSmgr()->addMeshSceneNode(earthMesh->getMesh(0), rootEmptyNode, 1);
-				sphere->setName(filename.toLocal8Bit().data());
-				selectnode = sphere;
-			}
-		}
-		core::aabbox3d<f32> box = selectnode->getBoundingBox();
-		float scale;
+	core::aabbox3d<f32> box = selectnode->getBoundingBox();
+	float scale;
 
-		core::vector3df offset = box.getCenter();//11.1
-		selectnode->setPosition(selectnode->getPosition() - offset);
-		scene::ICameraSceneNode* camera = mainWindow->getSmgr()->getActiveCamera();
-		irr::core::vector3df extend = box.getExtent();
+	core::vector3df offset = box.getCenter();//11.1
+	selectnode->setPosition(selectnode->getPosition() - offset);
+	/*QString fileName = QFileDialog::getOpenFileName(this,tr("Load Texture"), QDir::currentPath());
 
-		int x = mainWindow->getGlWindow()->height();
-		int y = mainWindow->getGlWindow()->width();
-
-		if ((extend.Y / extend.X) >= (y / x)) {
-			scale = extend.Z / 2 + extend.Y / (2 * tan(camera->getFOV() / 2));
-		}
-		else {
-			scale = extend.Z / 2 + extend.X * y / (x * 2 * tan(camera->getFOV() / 2));
-		}
-		if (camera) {
-			camera->setPosition(core::vector3df(0.0, 50.0, scale));
-			camera->setTarget(irr::core::vector3df(0.0, 0.0, 0.0));
-		}
-		//mainWindow->getSmgr()->setAmbientLight(video::SColorf(0.2f, 0.2f, 0.2f, 0.2f));
+	QByteArray byteArray = fileName.toLocal8Bit();
+	const char * f = (const char*)byteArray;
+	video::ITexture *tex = mainWindow->getDriver()->getTexture(f);
+	video::SMaterial *material = &(selectnode->getMaterial(0));
+	material->setTexture(0, tex);
+	mainWindow->getDriver()->setMaterial(*material);*/
+	scene::ICameraSceneNode* camera = mainWindow->getSmgr()->getActiveCamera();
+	irr::core::vector3df extend = box.getExtent();
+	int w =mainWindow->getGlWindow()->width();
+	int x = extend.X;
+	int y = extend.Y;
+	int z = extend.Z;
+	double size = z;
+	if (camera) {
+		camera->setPosition(core::vector3df(0.0, y, size));
+		camera->setTarget(irr::core::vector3df(0.0, 0.0, 0.0));
 	}
-	update();
-	for (int i = 0; i < 360; i = i + 15) {
-		int k = i / 15;
-		QString b = QString::number(num, 10); 
-		QString a = QString::number(k, 10);
-		QString picname = b + "_" + a + "_0";
-		getpic(picname);
-		changeview();
-	}
-	
+	update();	
 }
 
 void GLWindow::changeview() {
@@ -131,3 +121,16 @@ void GLWindow::getpic(QString picname) {
 	imagelue.save(jpgPath);
 }
 
+
+void GLWindow::todoo() {
+	int k = 0;
+	for (k = 0; k < 24; k++) {
+		QString a = QString::number(k, 10);
+		QString picname = b + "_" + a + "_0";
+		getpic(picname);
+		changeview();
+		update();
+	}
+	
+	//selectnode->setVisible(false);
+}
