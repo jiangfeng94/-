@@ -21,7 +21,8 @@ public:
 	void updateContent(const QString &filename, int num);
 	void changeview();
 	void getpic(QString picname);
-	void todoo();
+	public slots:
+	void mousePressEvent(QMouseEvent *event);
 protected:
 	/*! Initialize OpenGL*/
 	void initializeGL();

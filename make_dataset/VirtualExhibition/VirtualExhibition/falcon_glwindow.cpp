@@ -3,7 +3,6 @@
 #include <irrlicht.h>
 
 
-QString b;
 GLWindow::GLWindow(QWidget *parent)
 	: QOpenGLWidget(parent)
 {
@@ -53,17 +52,16 @@ void GLWindow::resizeGL(int w, int h)
 void GLWindow::paintGL()
 {
 	makeCurrent();
-	glClearColor(255, 132, 132, 132);
+	glClearColor(255, 128, 128, 128);
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	glLoadIdentity();
-	mainWindow->getDriver()->beginScene(true, true, video::SColor(255, 132, 132, 132));
+	mainWindow->getDriver()->beginScene(true, true, video::SColor(255, 128, 128, 128));
 	mainWindow->getSmgr()->drawAll();
 	mainWindow->getDriver()->endScene();
 	update();
 }
 
 void GLWindow::updateContent(const QString &filename, int num) {
-	b = QString::number(num, 10);
 	scene::IAnimatedMesh* earthMesh = mainWindow->getSmgr()->getMesh(filename.toLocal8Bit().data());
 	irr::core::vector3df center(0.0, 0.0, 0.0);
 	if (earthMesh)
@@ -80,14 +78,6 @@ void GLWindow::updateContent(const QString &filename, int num) {
 
 	core::vector3df offset = box.getCenter();//11.1
 	selectnode->setPosition(selectnode->getPosition() - offset);
-	/*QString fileName = QFileDialog::getOpenFileName(this,tr("Load Texture"), QDir::currentPath());
-
-	QByteArray byteArray = fileName.toLocal8Bit();
-	const char * f = (const char*)byteArray;
-	video::ITexture *tex = mainWindow->getDriver()->getTexture(f);
-	video::SMaterial *material = &(selectnode->getMaterial(0));
-	material->setTexture(0, tex);
-	mainWindow->getDriver()->setMaterial(*material);*/
 	scene::ICameraSceneNode* camera = mainWindow->getSmgr()->getActiveCamera();
 	irr::core::vector3df extend = box.getExtent();
 	int w =mainWindow->getGlWindow()->width();
@@ -105,8 +95,6 @@ void GLWindow::updateContent(const QString &filename, int num) {
 void GLWindow::changeview() {
 	if (selectnode)
 	{
-		video::SMaterial* material = &(selectnode->getMaterial(0));
-		selectnode->setMaterialFlag(video::EMF_WIREFRAME, false);
 		core::vector3df rotation = selectnode->getRotation();
 		rotation.Y += 15;
 		selectnode->setRotation(rotation);
@@ -122,15 +110,23 @@ void GLWindow::getpic(QString picname) {
 }
 
 
-void GLWindow::todoo() {
-	int k = 0;
-	for (k = 0; k < 24; k++) {
+int num = 0;
+
+void GLWindow::mousePressEvent(QMouseEvent *event) {
+	video::SMaterial* material = &(selectnode->getMaterial(0));
+	QString f = "../../3d_model/" + QString::number(num, 10) +".png";
+	
+	QByteArray byteArray = f.toLocal8Bit();
+	const char * fn = (const char*)byteArray;
+	video::ITexture *tex = mainWindow->getDriver()->getTexture(fn);
+	material->setTexture(0, tex);
+	update();
+	for (int k = 0; k < 24; k++) {
 		QString a = QString::number(k, 10);
-		QString picname = b + "_" + a + "_0";
+		QString picname = QString::number(num, 10) + "_" + a + "_0";
 		getpic(picname);
 		changeview();
 		update();
 	}
-	
-	//selectnode->setVisible(false);
+	num++;
 }
