@@ -2,3 +2,6 @@ viewpoint_generation/out/
 viewpoint_generation/log_dir
 viewpoint_generation/output
 make_dataset/data*
+viewpoint_generation/__pycache__
+viewpoint_generation/.idea
+viewpoint_generation/test

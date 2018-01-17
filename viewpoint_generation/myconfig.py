@@ -7,7 +7,7 @@ Created on Mon Jan 15 16:44:16 2018
 
 batch_size =24
 learning_rate =0.001
-epochs =2000
+epochs =500
 height=64
 width=96
 channel=3

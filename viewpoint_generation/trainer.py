@@ -13,7 +13,7 @@ import numpy as np
 from PIL import Image
 log_dir = "log_dir"
 class Trainer(object):
-    def __init__(self,train,test,train_target):
+    def __init__(self,train,test,train_target,test_target):
         self.batch_size =config.batch_size
         self.learning_rate = config.learning_rate
         self.epochs = config.epochs
@@ -22,6 +22,7 @@ class Trainer(object):
         self.train = train
         self.test = test
         self.train_target =train_target
+        self.test_target = test_target
     def setup_graph(self,model):
         self.model =model
         self.loss = self.model.get_loss()
@@ -32,7 +33,7 @@ class Trainer(object):
     def build_optimizer(self,loss,gstep=None,lrate =None):
         gstep = self.global_step
         lrate = self.learning_rate
-        lr = tf.train.exponential_decay(lrate, gstep, 100, 0.98, staircase=True)
+        lr = tf.train.exponential_decay(lrate, gstep, 500, 0.98, staircase=True)
         optimizer = tf.train.AdamOptimizer(lr)
         self.opt = layers.optimize_loss(loss=loss, global_step=gstep, learning_rate=lrate,
                                         optimizer=optimizer)
@@ -62,24 +63,25 @@ class Trainer(object):
                 b_out = np.array(output)
                 b_out *= 255
                 b_out = np.rint(b_out)
-
-
-
                 if i % 10 == 0:
                     self.summary_writer.add_summary(summary, global_step=gstep)
             if e%10==0:
-                for k in range(0, 24):
+                for k in range(0, self.batch_size):
                     im2 = np.uint8(b_out[k])
                     im2 = Image.fromarray(im2)
                     im2.save("out/%d-output.jpg" % (k))
+                    im1 = np.uint8(b_t[k])
+                    im1 = Image.fromarray(im1)
+                    im1.save("out/%d-target.jpg" % (k))
     def test_model(self):
         dataset = self.test
+        target =self.test_target
         l = len(dataset)
         print("Total iterations in epoch", int(l / self.batch_size))
         test_output = []
         for i in range(int(l/self.batch_size)):
             batch_input = dataset[i * self.batch_size: (i + 1) * self.batch_size]
-            train_labels = np.zeros(batch_input.shape)
+            train_labels = target[i * self.batch_size: (i + 1) * self.batch_size]
             feed_dict = {self.model.image: batch_input, self.model.target_image: train_labels}
             op, computed_loss = self.session.run([self.model.model_output, self.loss], feed_dict=feed_dict)
             test_output.append(op)
