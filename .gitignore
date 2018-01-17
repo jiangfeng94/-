@@ -1,3 +1,4 @@
-make_dataset/data_output
 viewpoint_generation/out/
-make_dataset/data_output_resize
+viewpoint_generation/log_dir
+viewpoint_generation/output
+make_dataset/data*

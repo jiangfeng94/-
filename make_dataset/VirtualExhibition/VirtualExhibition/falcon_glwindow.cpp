@@ -96,7 +96,7 @@ void GLWindow::changeview() {
 	if (selectnode)
 	{
 		core::vector3df rotation = selectnode->getRotation();
-		rotation.Y += 15;
+		rotation.Y += 5;
 		selectnode->setRotation(rotation);
 	}
 	update();
@@ -105,7 +105,7 @@ void GLWindow::getpic(QString picname) {
 	int w = mainWindow->getGlWindow()->width();
 	int h = mainWindow->getGlWindow()->height();
 	QPixmap imagelue = mainWindow->grab(QRect(0, 0, w,h));
-	QString jpgPath = "../../data_output/"+ picname+".jpg";
+	QString jpgPath = "../../data_output_angle=5/"+ picname+".jpg";
 	imagelue.save(jpgPath);
 }
 
@@ -121,7 +121,7 @@ void GLWindow::mousePressEvent(QMouseEvent *event) {
 	video::ITexture *tex = mainWindow->getDriver()->getTexture(fn);
 	material->setTexture(0, tex);
 	update();
-	for (int k = 0; k < 24; k++) {
+	for (int k = 0; k < 72; k++) {
 		QString a = QString::number(k, 10);
 		QString picname = QString::number(num, 10) + "_" + a + "_0";
 		getpic(picname);
