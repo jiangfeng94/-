@@ -25,25 +25,36 @@ class AutoEncoder():
     def encoder(self,input_image,scope_name="encoder",reuse =False):
         with tf.variable_scope(scope_name):
             c1 = op.conv2d(input_image, 64, kernel_h=5, kernel_w=5, k_stride=1, scope_name='conv1')
+            c1 = op.batch_norm(c1,scope_name='bn1')
             self.c1.append(c1)
             c2 = op.conv2d(c1, 128, kernel_h=5, kernel_w=5, k_stride=2, scope_name='conv2')
+            c2 = op.batch_norm(c2,scope_name='bn2')
             self.c2.append(c2)
-            c3 = op.conv2d(c2, 256, kernel_h=5, kernel_w=5, k_stride=2, scope_name='conv3')
+            c3 = op.conv2d(c2, 256, kernel_h=5, kernel_w=5, k_stride=1, scope_name='conv3')
+            c3 = op.batch_norm(c3,scope_name='bn3')
             self.c3.append(c3)
-            print(c1.shape,c2.shape,c3.shape)
-            return c3
+            c4 = op.conv2d(c3, 512, kernel_h=5, kernel_w=5, k_stride=2, scope_name='conv4')
+            self.c3.append(c4)
+            print(c1.shape,c2.shape,c3.shape,c4.shape)
+            return c4
     def decoder(self,dinput,scope_name ='decoder'):
         with tf.variable_scope(scope_name):
-            d1 = op.deconv2d(dinput, kernel_size=5, stride=2, num_filter=128,  scope_name='dconv1')
+            d1 = op.deconv2d(dinput, kernel_size=5, stride=2, num_filter=256,  scope_name='dconv1')
+            d1 = op.batch_norm(d1,scope_name='bn4')
             d1 = tf.nn.relu(d1)
             self.d1.append(d1)
-            d2 = op.deconv2d(d1, kernel_size=5, stride=2, num_filter=64,  scope_name='dconv2')
+            d2 = op.deconv2d(d1, kernel_size=5, stride=1, num_filter=128,  scope_name='dconv2')
+            d2 = op.batch_norm(d2,scope_name='bn5')
             d2 = tf.nn.relu(d2)
             self.d2.append(d2)
-            d3 = op.deconv2d(d2, kernel_size=5, stride=1, num_filter=3,  scope_name='dconv3')
+            d3 = op.deconv2d(d2, kernel_size=5, stride=2, num_filter=64,  scope_name='dconv3')
+            d3 = op.batch_norm(d3,scope_name='bn6')
+            d3 = tf.nn.relu(d3)
             self.d3.append(d3)
-            print(d1.shape,d2.shape,d3.shape)
-            return d3
+            d4 = op.deconv2d(d3, kernel_size=5, stride=1, num_filter=3,  scope_name='dconv4')
+            self.d3.append(d4)
+            print(d1.shape,d2.shape,d3.shape,d4.shape)
+            return d4
     def get_feed_dict(self,batch_input,batch_output):
         return {self.image:batch_input,self.target_image:batch_output}
     def get_loss(self):

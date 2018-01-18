@@ -11,6 +11,7 @@ import tensorflow as tf
 import tensorflow.contrib.layers as layers
 import numpy as np
 from PIL import Image
+import time
 log_dir = "log_dir"
 class Trainer(object):
     def __init__(self,train,test,train_target,test_target):
@@ -41,6 +42,7 @@ class Trainer(object):
     def  train_model(self,is_train_True=True):
         dataset = self.train
         target  = self.train_target
+        start_time  =time.time()
         l = len(dataset)
         print("Total iterations in epoch", int(l / self.batch_size))
         for e in range(self.epochs):
@@ -53,7 +55,12 @@ class Trainer(object):
                 computed_loss, computed_opt, gstep, summary, output = self.session.run(
                     [self.loss, self.opt, self.global_step, self.summary_op, self.model.model_output],
                     feed_dict=feed_dict)
-                print("Epoch: {}/{}...".format(e + 1, self.epochs), "Training loss: {:.4f}".format(computed_loss))
+                cur_time =time.time()
+                using_time =cur_time-start_time
+                s =using_time%60
+                m =((using_time-s)%3600)/60
+                h =(using_time-s-m*60)/3600
+                print("Epoch: {}/{}...".format(e + 1, self.epochs), "Training loss: {:.4f}".format(computed_loss),"Time:{:.0f}:{:.0f}:{:.0f}".format(h,m,s))
                 b_in = np.array(batch_input)
                 b_in *= 255
                 b_in = np.rint(b_in)
@@ -65,8 +72,8 @@ class Trainer(object):
                 b_out = np.rint(b_out)
                 if i % 10 == 0:
                     self.summary_writer.add_summary(summary, global_step=gstep)
-            if e%10==0:
-                for k in range(0, self.batch_size):
+            if e%5 ==0:
+                for k in range(0, 3):
                     im2 = np.uint8(b_out[k])
                     im2 = Image.fromarray(im2)
                     im2.save("out/%d-output.jpg" % (k))

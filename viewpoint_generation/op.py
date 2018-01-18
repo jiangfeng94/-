@@ -19,3 +19,6 @@ def deconv2d(input, kernel_size, stride, num_filter, scope_name='deconv2d'):
 			padding='SAME', biases_initializer=tf.zeros_initializer(), weights_initializer=tf.contrib.layers.xavier_initializer()
 		)
 
+def batch_norm(input, is_train=True, activation_fn=None, scope_name="bn_act"):
+	with tf.variable_scope(scope_name):
+		return layers.batch_norm(input, scale=True, updates_collections=None)
